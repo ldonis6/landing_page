@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    overflow: hidden;
+}
+.container {
+    width: 100%;
+    min-height: 100vh;
+    background-color: #1f2937;
+}
+.header {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 16px;
+}
+.logo {
+    font-size: 24px;
+    color: #f9faf8;
+    letter-spacing: 3px;
+    cursor: pointer;
+}
+ul {
+    display: flex;
+    list-style-type: none;
+    gap: 16px;
+}
+.link li a {
+    text-decoration: none;
+    letter-spacing: 3px;
+    font-size: 18px;
+    color: #e5e7eb;
+    margin: 25px 10px;
+    text-transform: capitalize;
+}
+.link li:hover a {
+    color: lightseagreen;
+}
+
+
