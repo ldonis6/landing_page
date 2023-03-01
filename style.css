@@ -8,6 +8,14 @@
     min-height: 100vh;
     background-color: #1f2937;
 }
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    inline-size: 200px;
+}
 button {
     border: none;
     color: white;
@@ -56,6 +64,7 @@ ul {
     justify-content: center;
     padding: 90px;
     gap: 40px;
+    flex-wrap: wrap;
 }
 .hero-container {
     display: flex;
@@ -86,16 +95,17 @@ ul {
     background-color: whitesmoke;
     display: flex;
     justify-content: center;
-    align-items: center;
-    font-size: 18px;
-    gap: 52px;
     text-align: center;
-    padding: 20px;
+    font-size: 18px;
+    flex-wrap: wrap;
+    gap: 30px;
 }
 .info-title {
     font-size: 36px;
     font-weight: bold;
     color: #1f2937;
+    padding-bottom: 20px;
+    padding-top: 20px;
 }
 .info img {
     height: 200px;
@@ -104,6 +114,7 @@ ul {
     border: 6px solid #1f2937;
     border-radius: 8px;
 }
+
 
 /*quote*/
 
