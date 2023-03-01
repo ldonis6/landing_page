@@ -18,13 +18,20 @@ p {
 button {
     border: none;
     color: white;
-    text-decoration: none;
     font-weight: bold;
     background-color: #3882f6;
     border-radius: 8px;
     width: 100px;
     height: 25px;
+    cursor: pointer; 
 }
+button:hover {
+    background-color: white;
+    color: black;
+}
+
+/*Header*/
+
 .header {
     display: flex;
     justify-content: center;
@@ -52,6 +59,9 @@ ul {
 .link li:hover a {
     color: rgb(32, 78, 178);
 }
+
+/*Hero*/
+
 .hero {
     display: flex;
     align-items: center;
@@ -81,6 +91,9 @@ ul {
     text-align: center;
     padding: 15px;
 }
+
+/*information*/
+
 .information,
 .info-title {
     background-color: whitesmoke;
@@ -105,6 +118,9 @@ ul {
     border: 6px solid #1f2937;
     border-radius: 8px;
 }
+
+/*quote*/
+
 .quote-container {
     display: flex;
     flex-direction: column;
@@ -124,6 +140,9 @@ ul {
     font-size: 20px;
     margin-top: 10px;
 }
+
+/*Action*/
+
 .action-container {
     display: flex;
     background-color: white;
@@ -154,6 +173,9 @@ ul {
     align-self: center;
     margin-left: 20px;
 }
+
+/*footer*/
+
 .footer {
     background-color: #1f2937;
     left: 0;
